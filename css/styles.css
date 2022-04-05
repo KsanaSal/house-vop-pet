@@ -1,0 +1,60 @@
+:root {
+    /* background color site */
+    --dark-background-color: #242B33;
+    --darklight-background-color: #2D343C;
+    --accent-background-color: #D4C17F;
+    --light-background-color: #FFFFFF;
+
+    /* text color site */
+    --light-text-color: #FFFFFF;
+    --accent-text-color: #D4C17F;
+    --dark-text-color: #BEBEBE;
+    --medium-text-color: #E7E7E7;
+}
+
+body {
+    background-color: var(--dark-background-color);
+    color: var(--light-text-color);
+}
+.list {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+
+/* header style */
+.link-nav {
+    color: var(--light-text-color);
+}
+
+/* main styles */
+
+/* section hero style */
+.hero {
+    box-sizing: border-box;
+    height: 840px;
+    background-image: url('../images/background-hero.jpg');
+}
+.caption, .title {
+    color: var(--accent-text-color);
+}
+.link-hero {
+    color: var(--light-text-color);
+}
+
+/* section more details stile */
+.text {
+    color: var(--medium-text-color);
+}
+
+/* footer styles */
+
+/* address style */
+.link-address {
+    color: var(--light-text-color);
+}
+/* social network style */
+.link {
+    color: var(--light-text-color);
+}
