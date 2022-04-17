@@ -11,13 +11,19 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@400;700&family=Roboto:wght@300&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./css/styles.css" />
     <title>house-vop-pet</title>
   </head>
   <body>
     <!--header site house vop-->
     <header class="header">
-      <a href="#"
+      <a class="logo" href="#"
         ><img
           src="./images/logo-house-vop.svg"
           alt="Житловий комплекс House-VOP"
@@ -53,31 +59,23 @@
       </section>
       <!--specifics house vop-->
       <section class="specific">
-        <h2 class="title">Про комплекс</h2>
+        <h2 class="visually-hidden">Про комплекс</h2>
         <ul class="list">
           <li>
             <img src="./images/specifics/square.svg" alt="Парки і сквери" />
-            <span>
-              Поряд історичні парки та сквери
-            </span>
+            <span class="desc-specific"> Поряд історичні парки та сквери </span>
           </li>
           <li>
             <img src="./images/specifics/building.svg" alt="Будинки" />
-            <span>
-              Повністю облаштований
-            </span>
+            <span class="desc-specific"> Повністю облаштований </span>
           </li>
           <li>
             <img src="./images/specifics/fountain.svg" alt="Фонтан" />
-            <span>
-              10 фонтанів на території
-            </span>
+            <span class="desc-specific"> 10 фонтанів на території </span>
           </li>
           <li>
             <img src="./images/specifics/bicycle.svg" alt="Велосипед" />
-            <span>
-              6 км велодоріжек
-            </span>
+            <span class="desc-specific"> 6 км велодоріжек </span>
           </li>
         </ul>
       </section>
@@ -92,7 +90,7 @@
               width="535"
               height="320"
             />
-            <span>Стандарт — 1 поверх</span>
+            <span class="desc-title">Стандарт — 1 поверх</span>
           </li>
           <li>
             <img
@@ -101,7 +99,7 @@
               width="535"
               height="320"
             />
-            <span>Комфорт — 2 поверхи</span>
+            <span class="desc-title">Комфорт — 2 поверхи</span>
           </li>
           <li>
             <img
@@ -110,7 +108,7 @@
               width="535"
               height="320"
             />
-            <span>Люкс — 3 поверхи</span>
+            <span class="desc-title">Люкс — 3 поверхи</span>
           </li>
           <li>
             <img
@@ -119,7 +117,7 @@
               width="535"
               height="320"
             />
-            <span>Супер Люкс — 4 поверхи</span>
+            <span class="desc-title">Супер Люкс — 4 поверхи</span>
           </li>
         </ul>
       </section>
@@ -127,43 +125,43 @@
       <section>
         <h2 class="title">Ціни</h2>
         <table>
-          <caption>
+          <caption class="title-tab">
             Каталог типів квартир за ціною
           </caption>
           <thead>
             <tr>
-              <th>Квартира</th>
-              <th>Поверховість</th>
-              <th>Ціна</th>
+              <th class="subtitle-tab">Квартира</th>
+              <th class="subtitle-tab">Поверховість</th>
+              <th class="subtitle-tab">Ціна</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>Стандарт</td>
-              <td>1</td>
-              <td>30000$</td>
+              <td class="desc-tab">Стандарт</td>
+              <td class="desc-tab">1</td>
+              <td class="desc-tab">30000$</td>
             </tr>
             <tr>
-              <td>Комфорт</td>
-              <td>2</td>
-              <td>40000$</td>
+              <td class="desc-tab">Комфорт</td>
+              <td class="desc-tab">2</td>
+              <td class="desc-tab">40000$</td>
             </tr>
             <tr>
-              <td>Люкс</td>
-              <td>3</td>
-              <td>50000$</td>
+              <td class="desc-tab">Люкс</td>
+              <td class="desc-tab">3</td>
+              <td class="desc-tab">50000$</td>
             </tr>
             <tr>
-              <td>Супер Люкс</td>
-              <td>4</td>
-              <td>60000$</td>
+              <td class="desc-tab">Супер Люкс</td>
+              <td class="desc-tab">4</td>
+              <td class="desc-tab">60000$</td>
             </tr>
           </tbody>
           <tfoot>
             <tr>
-              <td>Разом</td>
-              <td>5</td>
-              <td>180000$</td>
+              <td class="subtitle-tab">Разом</td>
+              <td class="subtitle-tab">5</td>
+              <td class="subtitle-tab">180000$</td>
             </tr>
           </tfoot>
         </table>
@@ -171,7 +169,7 @@
       <!--more details house vop -->
       <section>
         <h2 class="title">Хочете подивитися?</h2>
-        <p>
+        <p class="text-title">
           Житловий комплекс в історичному центрі міста HouseVOP завершив<br />
           будівництво та здав об’єкт в експлаутацію 11 березня 2021 року.<br />
           Якщо ви маєте бажання подивитися квартиру, чекаємо на Вас.
@@ -183,7 +181,7 @@
       </section>
       <!--video house vop-->
       <section>
-        <h2 class="title">Відео житлового комплекса</h2>
+        <h2 class="visually-hidden">Відео житлового комплекса</h2>
         <img
           src="./images/video-image.jpg"
           alt="Картинка під відео"
@@ -214,19 +212,20 @@
         </p>
       </section>
     </main>
+    <!--footer site house vop-->
     <footer>
       <a href="#"
         ><img
           src="./images/logo-house-vop.svg"
           alt="Житловий комплекс House-VOP"
       /></a>
-      <p>&#169; 2022 Всі права захищені. HouseVOP</p>
+      <p class="text-footer">&#169; 2022 Всі права захищені. HouseVOP</p>
       <ul class="list">
-        <li>Про комплекс</li>
-        <li>Район</li>
-        <li>Каталог квартир</li>
-        <li>Іпотека</li>
-        <li>Контакти</li>
+        <li><a class="link-nav" href="#">Про комплекс</a></li>
+        <li><a class="link-nav" href="#">Район</a></li>
+        <li><a class="link-nav" href="#">Каталог квартир</a></li>
+        <li><a class="link-nav" href="#">Іпотека</a></li>
+        <li><a class="link-nav" href="#">Контакти</a></li>
       </ul>
       <ul class="list">
         <li>
@@ -235,18 +234,18 @@
             href="https://goo.gl/maps/mM7BM1BBG924dc3X9"
             target="_blank"
             rel="noreferrer noopener"
-            >Адреса: вул. Садова 10-15</a
+            ><span class="address">Адреса:</span> вул. Садова 10-15</a
           >
         </li>
         <li>
           <a class="link-address" href="tell:+380991234567">
-            <span>Телефон:</span> +38 (099) 123-45-67</a
+            <span class="address">Телефон:</span> +38 (099) 123-45-67</a
           >
         </li>
-        <li>Відділ продажу: 10:00 - 20:00</li>
+        <li class="address">Відділ продажу: 10:00 - 20:00</li>
         <li>
           <a class="link-address" href="mailto:vip@housevip.ru"
-            ><span>E-mail:</span> vip@housevip.ru</a
+            ><span class="address">E-mail:</span> vip@housevip.ru</a
           >
         </li>
         <li>
