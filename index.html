@@ -341,26 +341,51 @@
                 </div>
             </section>
             <!--map house vop-->
-            <section>
-                <h2 class="title">Район на мапі</h2>
-                <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.674094671463!2d30.53139161561576!3d50.44717087947499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce532b877889%3A0xafd90f9d5be4125!2z0LLRg9C70LjRhtGPINCh0LDQtNC-0LLQsCwgMTAsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1648834580798!5m2!1sru!2sua"
-                    width="1110"
-                    height="358"
-                    style="border: 0"
-                    allowfullscreen=""
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                >
-                </iframe>
+            <section class="map section">
+                <div class="container map-container">
+                    <h2 class="title">Район на мапі</h2>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2540.674094671463!2d30.53139161561576!3d50.44717087947499!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d4ce532b877889%3A0xafd90f9d5be4125!2z0LLRg9C70LjRhtGPINCh0LDQtNC-0LLQsCwgMTAsINCa0LjRl9CyLCAwMjAwMA!5e0!3m2!1sru!2sua!4v1648834580798!5m2!1sru!2sua"
+                        width="1110"
+                        height="358"
+                        style="border: 0"
+                        allowfullscreen=""
+                        loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"
+                    >
+                    </iframe>
+                </div>
             </section>
             <!--question house vop-->
-            <section>
-                <h2 class="title">Залишились питання?</h2>
-                <p class="text">
-                    <sup>*</sup> Ми нікому не передаємо ваші дані.<br />
-                    І не зберігаємо ваш номер у базу.
-                </p>
+            <section class="question section">
+                <div class="container question-container">
+                    <h2 class="title">Залишились питання?</h2>
+                    <div class="question-inform">
+                        <p class="text">
+                            <sup>*</sup> Ми нікому не передаємо ваші дані.<br />
+                            І не зберігаємо ваш номер у базу.
+                        </p>
+                        <form class="question-form">
+                            <input
+                                class="input"
+                                type="text"
+                                name="name"
+                                placeholder="Ваше ім’я"
+                                required
+                            />
+                            <input
+                                class="input"
+                                type="tel"
+                                name="phone_number"
+                                placeholder="Ваш телефон"
+                                required
+                            />
+                            <button class="button" type="submit">
+                                Подивитись район
+                            </button>
+                        </form>
+                    </div>
+                </div>
             </section>
         </main>
         <!--footer site house vop-->

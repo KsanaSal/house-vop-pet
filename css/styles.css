@@ -324,6 +324,7 @@ img {
     font-size: 14px;
     color: var(--accent-text-color);
     border: none;
+    height: 50px;
 }
 .input::placeholder {
     color: #bebebe;
@@ -337,6 +338,11 @@ img {
     font-size: 16px;
     font-weight: 700;
     height: 50px;
+}
+.button:hover,
+.button:focus {
+    background-color: var(--dark-light-background-color);
+    box-shadow: 0px 4px 8px 4px rgba(231, 231, 231, 0.25);
 }
 /* section video style */
 .video {
@@ -388,6 +394,35 @@ img {
     display: none;
 }
 
+/* section map style */
+.map {
+    padding-top: 180px;
+}
+.map-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+
+/* section question styles */
+.question {
+    padding: 180px 0;
+}
+.question-container {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+.question-inform {
+    display: flex;
+    flex-direction: row;
+    gap: 130px;
+}
+.question-form {
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
 /* end main styles */
 
 /* footer styles */
