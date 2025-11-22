@@ -175,7 +175,7 @@ img {
 
 /* section specific style */
 .specific {
-    padding: 100px 0 190px 0;
+    padding-top: 100px;
 }
 .specific-container {
     display: flex;
@@ -208,6 +208,14 @@ img {
 }
 
 /* section apartment style */
+.apartments {
+    padding-top: 190px;
+}
+.apartments-container {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
 .title {
     color: var(--accent-text-color);
 
@@ -216,24 +224,51 @@ img {
     font-size: 36px;
     line-height: 1.333;
 }
+.apartments-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
 .desc-title {
     font-size: 24px;
     line-height: 1.167;
 }
 
 /* section prices style */
+.prices {
+    padding-top: 100px;
+}
+.prices-container {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.prices-table {
+    width: 100%;
+    text-align: start;
+    border-collapse: collapse;
+}
+
 .title-tab {
     font-size: 24px;
     line-height: 1.167;
+    text-align: start;
+    padding: 12px 0 22px 0;
 }
 .subtitle-tab {
     font-weight: 700;
     font-size: 24px;
     line-height: 1.167;
+    text-align: start;
+    padding: 15px 16px 24px 16px;
+    border: 1px solid var(--light-background-color);
 }
 .desc-tab {
     font-size: 24px;
     line-height: 1.167;
+    text-align: start;
+    padding: 15px 16px 24px 16px;
+    border: 1px solid var(--light-background-color);
 }
 
 /* section more details stile */
