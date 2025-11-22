@@ -174,6 +174,31 @@ img {
 }
 
 /* section specific style */
+.specific {
+    padding: 100px 0 190px 0;
+}
+.specific-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.specific-list {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 64px;
+}
+.specific-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    width: 200px;
+}
+.img-specific {
+    width: 80px;
+    height: 80px;
+}
 .desc-specific {
     font-family: "Roboto", sans-serif;
     font-weight: 300;
