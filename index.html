@@ -297,19 +297,48 @@
                                 required
                             />
                         </div>
-                        <button class="button" type="submit">Подивитись район</button>
+                        <button class="button" type="submit">
+                            Подивитись район
+                        </button>
                     </form>
                 </div>
             </section>
             <!--video house vop-->
-            <section>
-                <h2 class="visually-hidden">Відео житлового комплекса</h2>
-                <img
-                    src="./images/video-image.jpg"
-                    alt="Картинка під відео"
-                    width="719"
-                    height="650"
-                />
+            <section class="video section">
+                <div class="container video-container">
+                    <h2 class="visually-hidden">Відео житлового комплекса</h2>
+                    <div class="video-preview" id="videoBlock">
+                        <img
+                            src="./images/video-image.jpg"
+                            alt="Відео прев'ю"
+                            class="video-thumb"
+                        />
+                        <button
+                            class="video-play"
+                            id="playBtn"
+                            aria-label="Play video"
+                        >
+                            <svg class="video-icon">
+                                <use
+                                    width="80"
+                                    height="80"
+                                    href="./images/svg/icons.svg#icon-play-button"
+                                ></use>
+                            </svg>
+                        </button>
+                    </div>
+
+                    <video id="realVideo" class="video-element hidden" controls>
+                        <source
+                            src="https://cdn.pixabay.com/video/2023/05/23/164150-829639444_large.mp4"
+                            type="video/mp4"
+                            muted
+                            autoplay
+                            preload="auto"
+                        />
+                        Ваш браузер не підтримує відео.
+                    </video>
+                </div>
             </section>
             <!--map house vop-->
             <section>
@@ -400,5 +429,6 @@
                 </li>
             </ul>
         </footer>
+        <script src="./js/video.js"></script>
     </body>
 </html>
